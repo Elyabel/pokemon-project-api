@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { TrainerService } from '../services/TrainerService';
+import { TrainerService } from '../service/TrainerService';
 
 const service = new TrainerService();
 

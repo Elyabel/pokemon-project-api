@@ -1,5 +1,5 @@
 import { pool } from '../db/database';
-import { Attack } from '../entities/Attack';
+import { Attack } from '../entity/Attack';
 
 export class AttackRepository {
   async findAll(): Promise<Attack[]> {

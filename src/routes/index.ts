@@ -1,7 +1,7 @@
 import { Router } from 'express';
-import * as AttackCtrl from '../controllers/AttackController';
-import * as PokemonCtrl from '../controllers/PokemonController';
-import * as TrainerCtrl from '../controllers/TrainerController';
+import * as AttackCtrl from '../controller/AttackController';
+import * as PokemonCtrl from '../controller/PokemonController';
+import * as TrainerCtrl from '../controller/TrainerController';
 
 const router = Router();
 

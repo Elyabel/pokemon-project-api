@@ -1,5 +1,5 @@
-import { TrainerRepository } from '../repositories/TrainerRepository';
-import { Trainer } from '../entities/Trainer';
+import { TrainerRepository } from '../repository/TrainerRepository';
+import { Trainer } from '../entity/Trainer';
 
 export class TrainerService {
   constructor(private trainerRepo = new TrainerRepository()) {}

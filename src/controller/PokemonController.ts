@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { PokemonService } from '../services/PokemonService';
-import { BattleService } from '../services/BattleService';
+import { PokemonService } from '../service/PokemonService';
+import { BattleService } from '../service/BattleService';
 
 const service = new PokemonService();
 const battle = new BattleService();

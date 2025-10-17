@@ -1,4 +1,4 @@
-import { PokemonRepository } from '../repositories/PokemonRepository';
+import { PokemonRepository } from '../repository/PokemonRepository';
 
 export class BattleService {
   constructor(private pokemonRepo = new PokemonRepository()) {}

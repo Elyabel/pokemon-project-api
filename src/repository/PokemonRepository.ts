@@ -1,6 +1,6 @@
 import { pool } from '../db/database';
-import { Pokemon } from '../entities/Pokemon';
-import { Attack } from '../entities/Attack';
+import { Pokemon } from '../entity/Pokemon';
+import { Attack } from '../entity/Attack';
 
 export class PokemonRepository {
   async findAll(): Promise<Pokemon[]> {

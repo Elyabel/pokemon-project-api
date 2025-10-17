@@ -1,7 +1,7 @@
-import { PokemonRepository } from '../repositories/PokemonRepository';
-import { AttackRepository } from '../repositories/AttackRepository';
-import { Pokemon } from '../entities/Pokemon.js';
-import { Attack } from '../entities/Attack.js';
+import { PokemonRepository } from '../repository/PokemonRepository';
+import { AttackRepository } from '../repository/AttackRepository';
+import { Pokemon } from '../entity/Pokemon.js';
+import { Attack } from '../entity/Attack.js';
 
 export class PokemonService {
   constructor(

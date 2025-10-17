@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { AttackRepository } from '../repositories/AttackRepository';
+import { AttackRepository } from '../repository/AttackRepository';
 
 const repo = new AttackRepository();
 
