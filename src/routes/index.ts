@@ -5,8 +5,6 @@ import * as TrainerCtrl from '../controllers/TrainerController';
 
 const router = Router();
 
-router.get('/health', (_req, res) => res.json({ ok: true }));
-
 // Attacks
 router.get('/attacks', AttackCtrl.listAttacks);
 router.post('/attacks', AttackCtrl.createAttack);
