@@ -19,7 +19,6 @@ L'API démarre sur `http://localhost:3000`.
 
 ## Endpoints principaux
 
-- `GET /health`
 - **Attaques**
   - `GET /attacks`
   - `POST /attacks` `{ name, damage, usageLimit }`
